@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Scroll</string>
+    <string name="head">Android</string>
+    <string name="shead">Introduction to Android</string>
+    <string name="thead">History of Android</string>
+    <string name="text">->Go straight to the stuff that matters most.
+        ->Because Android 11 is optimized for how you use your phone.
+        ->Giving you powerful device controls.
+        ->And easier ways to manage conversations, privacy settings and so much more.
+        ->Go straight to the stuff that matters most. Because Android 11 is optimized for how you use your phone.
+        ->Giving you powerful device controls.
+        ->And easier ways to manage conversations, privacy settings and so much more.
+        ->Get all your messages in one place.
+    <br>respond to and control your conversations across multiple messaging apps.
+            ->All in the same spot. Then select people you always chat with. ->These priority conversations show up on your lock screen. So you never miss anything important.</br>
+    <br>This is the reference from https://www.android.com/ </br>
+    <br>My mail id is hemakiran.yandra.rdp@gmail.com</br>
+        <br>My number is 916304155825</br>
+    </string>
+</resources>
