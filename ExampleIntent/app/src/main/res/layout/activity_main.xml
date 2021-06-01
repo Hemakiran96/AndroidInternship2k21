@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Fill It"
+        android:textColor="#F44336"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#E91E63"
+
+        android:fontFamily="@font/aclonica"
+        android:hint="Enter name" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Next"
+        android:text="Next" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/aclonica"
+        android:background="#E91E63"
+        android:hint="Enter Number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA0C0C"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="Dial"
+        android:text="Dial" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/aclonica"
+        android:background="#E91E63"
+        android:id="@+id/Link"
+        android:hint="Enter Link"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="Search"
+        android:text="Search" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#E91E63"
+        android:fontFamily="@font/aclonica"
+        android:id="@+id/location"
+        android:hint="Enter location"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:onClick="maps"
+        android:text="map" />
+
+
+</LinearLayout>
