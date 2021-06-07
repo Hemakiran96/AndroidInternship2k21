@@ -1,0 +1,2 @@
+rootProject.name = "DIALOG"
+include ':app'
