@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country"
+            android:hint="Enter Country"
+            android:layout_weight="4"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="search"
+            android:layout_weight="1"
+            android:src="@drawable/ic_search"
+            android:background="@null"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/conf"
+        android:textSize="30sp"
+        android:layout_margin="18dp"
+        android:text="Confirm Cases"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/active"
+        android:textSize="30sp"
+        android:layout_margin="18dp"
+        android:text="Acitive Cases"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recovery"
+        android:textSize="30sp"
+        android:layout_margin="18dp"
+        android:text="Recoverey Cases"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dc"
+        android:textSize="30sp"
+        android:layout_margin="18dp"
+        android:text="Death Cases"/>
+
+</LinearLayout>
