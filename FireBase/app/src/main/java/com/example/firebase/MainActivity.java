@@ -56,4 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void register(View view) {
+    }
 }
